@@ -4,7 +4,7 @@ A Huffman code is a particular type of optimal prefix code that is commonly used
 
 The process of finding or using such a code proceeds by means of Huffman coding, an algorithm developed by *David A. Huffman*.
 
-**LoseRAR** (*inspired by the popular/indigent **WinRAR!***) as an assignment for my *Data Structures and Algorithms* course compresses strings/text files while it enables them to be extracted as well.
+**LoseRAR** (*inspired by the popular/indigent **WinRAR**!*) as an assignment for my *Data Structures and Algorithms* course, compresses strings/text files while it enables them to be extracted as well.
 
 ### Usage
 Run `src/Main.java` and go along with the instrunctions on the CLI.
