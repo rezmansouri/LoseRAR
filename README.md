@@ -16,7 +16,7 @@ Based on that functionality, any asked path for input is relative to the `files/
 ### Process
 We have the `Objects/Compressor.java` agent which uses the Huffman algorithm to produce a `Objects/Zip.java` object containing the final encoded result along with a map to indicate the encoding dictionary for future extraction.
 
-To delineate the effecacy of the algorithm on any file, another file with a `.losehuff` is generated which contains the pure encoded result. **BUT** the dictionary map is required for the extracting process; therefore, this file solely is of no use.
+To delineate the effeicacy of the algorithm on any file, another file with a `.losehuff` is generated which contains the pure encoded result. **BUT** the dictionary map is required for the extracting process; therefore, this file solely is of no use.
 
 The `Objects/Extractor.java` agent reads a serialized `.losezip` file written by the `Compressor` agent and using the included encoding dictionary, decodes the content to its original form.
 
